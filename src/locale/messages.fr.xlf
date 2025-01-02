@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" target-language="fr" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="123" datatype="html">
+        <source>Hello world</source>
+        <target>Bonjour le monde</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">8,9</context>
+        </context-group>
+        <note priority="1" from="description">description</note>
+        <note priority="1" from="meaning">titre principal de la page d'accueil</note>
+      </trans-unit>
+      <trans-unit id="7158592746571420879" datatype="html">
+        <source>search</source>
+        <target>rechercher</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1573470160828982828" datatype="html">
+        <source>{VAR_PLURAL, plural, =0 {no apple } =1 {one apple } other {<x id="INTERPOLATION"/> apples }}</source>
+        <target>{VAR_PLURAL, plural, =0 {aucune pomme} =1 {une pomme} other {<x id="INTERPOLATION"/> pommes }}</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">16,18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="265230358048538182" datatype="html">
+        <source>{VAR_SELECT, select, male {man} , female {woman}}</source>
+        <target>{VAR_SELECT, select, male {homme} female {femme}}</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">17,19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8626666393151935060" datatype="html">
+        <source>I am a subtitle</source>
+        <target>Je suis un sous-titre</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
